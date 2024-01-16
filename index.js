@@ -1,8 +1,9 @@
-const cors = require("cors");
-const express = require("express");
-//const { auth } = require("express-oauth2-jwt-bearer"); /* For authentication usage */
+import cors from "cors";
+import express from "express";
+//import { auth } from "express-oauth2-jwt-bearer"; /* For authentication usage */
 
-require("dotenv").config();
+import dotenv from "dotenv";
+dotenv.config();
 
 const PORT = process.env.PORT || 2999;
 const app = express();

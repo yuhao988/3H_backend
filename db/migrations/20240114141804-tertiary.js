@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
@@ -10,17 +10,17 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.BIGINT,
       },
-      character: {
+      character_id: {
         allowNull: false,
         type: Sequelize.BIGINT,
         references: { model: "characters", key: "id" },
       },
-      skill: {
+      skill_id: {
         allowNull: false,
         type: Sequelize.BIGINT,
         references: { model: "skills", key: "id" },
       },
-      combat_art: {
+      combat_art_id: {
         allowNull: false,
         type: Sequelize.BIGINT,
         references: { model: "combat_arts", key: "id" },
@@ -43,12 +43,12 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.BIGINT,
       },
-      character: {
+      character_id: {
         allowNull: false,
         type: Sequelize.BIGINT,
         references: { model: "characters", key: "id" },
       },
-      skill: {
+      skill_id: {
         allowNull: false,
         type: Sequelize.BIGINT,
         references: { model: "skills", key: "id" },
@@ -75,15 +75,43 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.BIGINT,
       },
-      character: {
+      character_id: {
         allowNull: false,
         type: Sequelize.BIGINT,
         references: { model: "characters", key: "id" },
       },
-      spell: {
+      spell_id: {
         allowNull: false,
         type: Sequelize.BIGINT,
         references: { model: "spells", key: "id" },
+      },
+      created_at: {
+        allowNull: false,
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+      updated_at: {
+        allowNull: false,
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+    });
+    await queryInterface.createTable("combat_art_list", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.BIGINT,
+      },
+      character_id: {
+        allowNull: false,
+        type: Sequelize.BIGINT,
+        references: { model: "characters", key: "id" },
+      },
+      art_id: {
+        allowNull: false,
+        type: Sequelize.BIGINT,
+        references: { model: "combat_art", key: "id" },
       },
       created_at: {
         allowNull: false,
@@ -102,5 +130,6 @@ module.exports = {
     await queryInterface.dropTable("budding_talents");
     await queryInterface.dropTable("boons_banes");
     await queryInterface.dropTable("spell_list");
+    await queryInterface.dropTable("combat_art_list");
   },
 };
