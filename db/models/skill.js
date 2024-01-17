@@ -1,7 +1,12 @@
 import { Model, DataTypes } from "sequelize";
 
 export default (sequelize, DataTypes) => {
-  class Skill extends Model {}
+  class Skill extends Model {
+    static associate(models) {
+      this.hasMany(models.combat_arts);
+      this.hasMany(models.weapons);
+    }
+  }
   Skill.init(
     {
       name: DataTypes.STRING,

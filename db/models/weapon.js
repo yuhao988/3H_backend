@@ -1,27 +1,32 @@
 import { Model, DataTypes } from "sequelize";
 
 export default (sequelize, DataTypes) => {
-  class Spell extends Model {
-    
+  class Weapon extends Model {
+    static associate(models) {
+      this.belongsTo(models.skills, { foreignKey: "skillsID" });
+    }
   }
-  Spell.init(
+  Weapon.init(
     {
       name: DataTypes.STRING,
-      type: DataTypes.STRING,
+      type_id: {
+        type: DataTypes.INTEGER,
+        references: { model: "skills", key: "id" },
+      },
+      str_mag: DataTypes.BOOLEAN,
       might: DataTypes.INTEGER,
       hit: DataTypes.INTEGER,
       critical: DataTypes.INTEGER,
-      uses: DataTypes.INTEGER,
-      weight: DataTypes.INTEGER,
+      durability: DataTypes.INTEGER,
       range_min: DataTypes.INTEGER,
       range_max: DataTypes.INTEGER,
     },
     {
       sequelize,
-      modelName: "spells",
+      modelName: "weapons",
       underscored: true,
       freezeTableName: true,
     }
   );
-  return Spell;
+  return Weapon;
 };

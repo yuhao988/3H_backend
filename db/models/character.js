@@ -1,7 +1,9 @@
 import { Model, DataTypes } from "sequelize";
 
 export default (sequelize, DataTypes) => {
-  class Character extends Model {}
+  class Character extends Model {
+    
+  }
   Character.init(
     {
       name: DataTypes.STRING,
