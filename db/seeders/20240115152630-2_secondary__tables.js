@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.bulkInsert("weapons", [
       {
         name: "Iron Sword",
-        type_id: 0,
+        type_id: 1,
         str_mag: true,
         might: 5,
         hit: 90,
@@ -20,7 +20,7 @@ module.exports = {
     await queryInterface.bulkInsert("combat_arts", [
       {
         name: "Wrath Strike",
-        type_id: 0,
+        type_id: 1,
         str_mag: true,
         might: 5,
         hit: 10,
