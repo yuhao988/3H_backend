@@ -1,6 +1,6 @@
-import { Model, DataTypes } from "sequelize";
+const { Model, DataTypes } = require("sequelize");
 
-export default (sequelize, DataTypes) => {
+module.exports = (sequelize, DataTypes) => {
   class CombatArt extends Model {
     static associate(models) {
       

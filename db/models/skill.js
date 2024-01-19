@@ -1,6 +1,6 @@
-import { Model, DataTypes } from "sequelize";
+const { Model, DataTypes } = require("sequelize");
 
-export default (sequelize, DataTypes) => {
+module.exports = (sequelize, DataTypes) => {
   class Skill extends Model {
     static associate(models) {
       this.hasMany(models.combat_arts);
