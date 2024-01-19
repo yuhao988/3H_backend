@@ -170,6 +170,7 @@ class characterController {
       if (cha_growth) {
         existing.cha_growth = cha_growth;
       };
+      existing.updated_at = Sequelize.literal("CURRENT_TIMESTAMP");
       return res.json(output);
     } catch (err) {
       return res.status(400).json({ error: true, msg: err.message });

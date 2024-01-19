@@ -17,6 +17,7 @@ module.exports = (sequelize, DataTypes) => {
       ca_list: DataTypes.ARRAY(DataTypes.INTEGER),
       boons: DataTypes.ARRAY(DataTypes.INTEGER),
       banes: DataTypes.ARRAY(DataTypes.INTEGER),
+      budding_talent: DataTypes.INTEGER,
     },
     {
       sequelize,
