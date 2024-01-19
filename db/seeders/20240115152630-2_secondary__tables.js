@@ -15,6 +15,7 @@ module.exports = {
         weight: 5,
         range_min: 1,
         range_max: 1,
+        
       },
     ]);
     await queryInterface.bulkInsert("combat_arts", [

@@ -40,6 +40,10 @@ module.exports = {
         type: Sequelize.ARRAY(Sequelize.BIGINT),
         
       },
+      budding_talent:{
+        allowNull:true,
+        type: Sequelize.BIGINT
+      },
       created_at: {
         allowNull: false,
         type: Sequelize.DATE,

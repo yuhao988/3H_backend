@@ -47,6 +47,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
+      description:{
+        allowNull:true,
+        type:Sequelize.TEXT,
+      },
       created_at: {
         allowNull: false,
         type: Sequelize.DATE,
@@ -105,6 +109,10 @@ module.exports = {
       range_max: {
         allowNull: false,
         type: Sequelize.BIGINT,
+      },
+      description:{
+        allowNull:true,
+        type:Sequelize.TEXT,
       },
       created_at: {
         allowNull: false,
