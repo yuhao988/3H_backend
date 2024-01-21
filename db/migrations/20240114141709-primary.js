@@ -188,15 +188,15 @@ module.exports = {
       },
 
       might: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.BIGINT,
       },
       hit: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.BIGINT,
       },
       critical: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.BIGINT,
       },
       uses: {
