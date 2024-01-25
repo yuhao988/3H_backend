@@ -10,17 +10,7 @@ module.exports = (sequelize, DataTypes) => {
   Skill.init(
     {
       name: DataTypes.STRING,
-      "E+": DataTypes.STRING,
-      D: DataTypes.STRING,
-      "D+": DataTypes.STRING,
-      C: DataTypes.STRING,
-      "C+": DataTypes.STRING,
-      B: DataTypes.STRING,
-      "B+": DataTypes.STRING,
-      A: DataTypes.STRING,
-      "A+": DataTypes.STRING,
-      S: DataTypes.STRING,
-      "S+": DataTypes.STRING,
+      skill_icon: DataTypes.STRING,
     },
     {
       sequelize,

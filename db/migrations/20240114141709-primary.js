@@ -18,79 +18,80 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING,
       },
-      base_lv:{
+      affinity: { allowNull: false, type: Sequelize.STRING },
+      base_lv: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      hp:{
+      hp: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      hp_growth:{
+      hp_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      strength:{
+      strength: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      str_growth:{
+      str_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      magic:{
+      magic: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      mag_growth:{
+      mag_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      dexterity:{
+      dexterity: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      dex_growth:{
+      dex_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      speed:{
+      speed: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      spd_growth:{
+      spd_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      luck:{
+      luck: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      lck_growth:{
+      lck_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      defence:{
+      defence: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      def_growth:{
+      def_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      resistance:{
+      resistance: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      res_growth:{
+      res_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      charm:{
+      charm: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
-      cha_growth:{
+      cha_growth: {
         allowNull: false,
         type: Sequelize.BIGINT,
       },
@@ -116,47 +117,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING,
       },
-      "E+": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "D": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "D+": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "C": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "C+": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "B": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "B+": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "A": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "A+": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "S": {
-        allowNull: true,
-        type: Sequelize.STRING,
-      },
-      "S+": {
+      skill_icon: {
         allowNull: true,
         type: Sequelize.STRING,
       },
@@ -215,9 +176,9 @@ module.exports = {
         allowNull: true,
         type: Sequelize.BIGINT,
       },
-      description:{
-        allowNull:true,
-        type:Sequelize.TEXT,
+      description: {
+        allowNull: true,
+        type: Sequelize.TEXT,
       },
       created_at: {
         allowNull: false,

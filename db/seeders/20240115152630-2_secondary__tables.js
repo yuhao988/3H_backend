@@ -27,8 +27,6 @@ module.exports = {
         weight: 10,
         range_min: 1,
         range_max: 1,
-
-        use: "50",
       },
       {
         name: "Silver Sword",
@@ -41,7 +39,6 @@ module.exports = {
         weight: 8,
         range_min: 1,
         range_max: 1,
-        use: "30",
       },
       {
         name: "Killing Edge",
@@ -54,7 +51,6 @@ module.exports = {
         weight: 10,
         range_min: 1,
         range_max: 1,
-        use: "20",
       },
       {
         name: "Training Sword",
@@ -67,7 +63,6 @@ module.exports = {
         weight: 4,
         range_min: 1,
         range_max: 1,
-        use: "50",
       },
       {
         name: "Brave Sword",
@@ -106,7 +101,7 @@ module.exports = {
         weight: 11,
         range_min: 1,
         range_max: 1,
-        use: "20",
+
         description: "Effective against Armoured foes.",
       },
       {
@@ -121,7 +116,6 @@ module.exports = {
         range_min: 1,
         range_max: 1,
 
-        use: "40",
         description: "Effective against Armoured and Cavalry foes.",
       },
       {
@@ -136,7 +130,6 @@ module.exports = {
         range_min: 1,
         range_max: 1,
 
-        use: "30",
         description: "Inflicts 10 damage to the wielder after combat.",
       },
       {
@@ -150,7 +143,6 @@ module.exports = {
         weight: 5,
         range_min: 1,
         range_max: 1,
-        use: "15",
       },
       {
         name: "Sword of Seiros",
@@ -163,7 +155,7 @@ module.exports = {
         weight: 6,
         range_min: 1,
         range_max: 1,
-        use: "30",
+
         description:
           "Sacred weapon. Heals 50% of damage dealt and restores HP every turn.",
       },
@@ -179,7 +171,6 @@ module.exports = {
         range_min: 1,
         range_max: 1,
 
-        use: "30",
         description:
           "Sacred weapon. Restores HP every turn; effect increased with Crest of Riegan.",
       },
@@ -194,7 +185,7 @@ module.exports = {
         weight: 9,
         range_min: 1,
         range_max: 1,
-        use: "30",
+
         description:
           "Sacred weapon. Restores HP every turn; effect increased with Crest of Fraldarius.",
       },
@@ -209,7 +200,7 @@ module.exports = {
         weight: 8,
         range_min: 1,
         range_max: 1,
-        use: "15",
+
         description: "Inflicts 5 damage to the wielder after combat.",
       },
       {
@@ -223,7 +214,6 @@ module.exports = {
         weight: 9,
         range_min: 1,
         range_max: 1,
-        use: "25",
       },
       {
         name: "Thunderbrand",
@@ -236,7 +226,7 @@ module.exports = {
         weight: 7,
         range_min: 1,
         range_max: 1,
-        use: "30",
+
         description:
           "Hero’s Relic. 2 consecutive hits when initiating combat; enables Foudroyant for Crest of Charon.",
       },
@@ -251,7 +241,7 @@ module.exports = {
         weight: 7,
         range_min: 1,
         range_max: 1,
-        use: "20",
+
         description:
           "Hero’s Relic. Deals magic-based damage; enables Beast Fang for Crest of the Beast.",
       },
@@ -266,7 +256,7 @@ module.exports = {
         weight: 9,
         range_min: 1,
         range_max: 2,
-        use: "20",
+
         description:
           "Hero’s Relic. Enables Ruptured Heaven for Crest of Flames. If not wielded by protagonist, Range becomes 1 and Weight +10.",
       },
@@ -281,7 +271,6 @@ module.exports = {
         weight: 7,
         range_min: 1,
         range_max: 1,
-        use: "40",
       },
       {
         name: "Iron Sword+",
@@ -294,7 +283,6 @@ module.exports = {
         weight: 5,
         range_min: 1,
         range_max: 1,
-        use: "45",
       },
       {
         name: "Steel Sword+",
@@ -307,7 +295,6 @@ module.exports = {
         weight: 10,
         range_min: 1,
         range_max: 1,
-        use: "55",
       },
       {
         name: "Silver Sword+",
@@ -320,7 +307,6 @@ module.exports = {
         weight: 8,
         range_min: 1,
         range_max: 1,
-        use: "40",
       },
       {
         name: "Brave Sword+",
@@ -333,7 +319,6 @@ module.exports = {
         weight: 12,
         range_min: 1,
         range_max: 1,
-        use: "40",
         description: "2 consecutive hits when initiating combat.",
       },
       {
@@ -347,7 +332,6 @@ module.exports = {
         weight: 10,
         range_min: 1,
         range_max: 1,
-        use: "25",
       },
       {
         name: "Training Sword+",
@@ -360,7 +344,6 @@ module.exports = {
         weight: 2,
         range_min: 1,
         range_max: 1,
-        use: "65",
       },
       {
         name: "Levin Sword+",
@@ -373,7 +356,6 @@ module.exports = {
         weight: 9,
         range_min: 1,
         range_max: 3,
-        use: "30",
         description: "Deals magic-based damage.",
       },
       {
@@ -387,7 +369,6 @@ module.exports = {
         weight: 11,
         range_min: 1,
         range_max: 1,
-        use: "25",
         description: "Effective against Armoured foes.",
       },
       {
@@ -401,7 +382,6 @@ module.exports = {
         weight: 5,
         range_min: 1,
         range_max: 1,
-        use: "45",
         description: "Effective against Armoured and Cavalry foes.",
       },
       {
@@ -415,7 +395,7 @@ module.exports = {
         weight: 10,
         range_min: 1,
         range_max: 1,
-        use: "30",
+
         description: "Inflicts 10 damage to the wielder after combat.",
       },
       {
@@ -429,7 +409,6 @@ module.exports = {
         weight: 5,
         range_min: 1,
         range_max: 1,
-        use: "25",
       },
       {
         name: "Cursed Ashiya Sword+",
@@ -442,7 +421,6 @@ module.exports = {
         weight: 8,
         range_min: 1,
         range_max: 1,
-        use: "20",
         description: "Inflicts 5 damage to the wielder after combat.",
       },
       {
@@ -456,7 +434,6 @@ module.exports = {
         weight: 9,
         range_min: 1,
         range_max: 1,
-        use: "30",
       },
       {
         name: "Venin Edge+",
@@ -469,7 +446,6 @@ module.exports = {
         weight: 6,
         range_min: 1,
         range_max: 1,
-        use: "25",
         description: "Inflicts poison.",
       },
     ]);

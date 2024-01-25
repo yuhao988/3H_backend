@@ -8,6 +8,7 @@ module.exports = {
         name: "Byleth",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/8/8d/Byleth-M.png/",
+        affinity: "Protagonist",
         base_lv: 1,
         hp: 27,
         hp_growth: 45,
@@ -32,6 +33,7 @@ module.exports = {
         name: "Edelgard",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/f/f6/Edelgard.png",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 29,
         hp_growth: 40,
@@ -56,6 +58,7 @@ module.exports = {
         name: "Hubert",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/1/1f/Hubert_Portrait.png",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 22,
         hp_growth: 35,
@@ -80,6 +83,7 @@ module.exports = {
         name: "Dorothea",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/5/55/Dorothea_Portrait.png",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 24,
         hp_growth: 40,
@@ -104,6 +108,7 @@ module.exports = {
         name: "Ferdinand",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/0/0c/Ferdinand_Portrait.png/",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 28,
         hp_growth: 50,
@@ -128,6 +133,7 @@ module.exports = {
         name: "Bernadetta",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/c/c5/Bernadetta_Portrait.png",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 25,
         hp_growth: 35,
@@ -152,6 +158,7 @@ module.exports = {
         name: "Caspar",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/8/8b/Caspar_Portrait.png",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 26,
         hp_growth: 55,
@@ -176,6 +183,7 @@ module.exports = {
         name: "Petra",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/7/7a/Petra_Portrait.png",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 25,
         hp_growth: 45,
@@ -200,6 +208,7 @@ module.exports = {
         name: "Linhardt",
         image_link:
           "https://static.wikia.nocookie.net/fireemblem/images/1/13/Linhardt_Portrait.png/",
+        affinity: "Black Eagle",
         base_lv: 1,
         hp: 24,
         hp_growth: 30,
@@ -222,7 +231,9 @@ module.exports = {
       },
       {
         name: "Dimitri",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/5/5d/Dimitri.png/",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/5/5d/Dimitri.png/",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 28,
         hp_growth: 55,
@@ -245,7 +256,9 @@ module.exports = {
       },
       {
         name: "Dedue",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/9/97/Doudou_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/9/97/Doudou_Portrait.png",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 30,
         hp_growth: 60,
@@ -268,7 +281,9 @@ module.exports = {
       },
       {
         name: "Felix",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/4/40/Felix_Portrait.png/",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/4/40/Felix_Portrait.png/",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 26,
         hp_growth: 45,
@@ -291,7 +306,9 @@ module.exports = {
       },
       {
         name: "Mercedes",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/2/2d/Mercedes_Portrait.png/",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/2/2d/Mercedes_Portrait.png/",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 25,
         hp_growth: 30,
@@ -314,7 +331,9 @@ module.exports = {
       },
       {
         name: "Ashe",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/6/65/Ashe_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/6/65/Ashe_Portrait.png",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 23,
         hp_growth: 35,
@@ -337,7 +356,9 @@ module.exports = {
       },
       {
         name: "Annette",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/2/2c/Annette_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/2/2c/Annette_Portrait.png",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 23,
         hp_growth: 25,
@@ -360,7 +381,9 @@ module.exports = {
       },
       {
         name: "Sylvain",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/d/d8/Sylvain_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/d/d8/Sylvain_Portrait.png",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 27,
         hp_growth: 55,
@@ -383,7 +406,9 @@ module.exports = {
       },
       {
         name: "Ingrid",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/3/3d/Ingrid_Portrait.png/",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/3/3d/Ingrid_Portrait.png/",
+        affinity: "Blue Lion",
         base_lv: 1,
         hp: 27,
         hp_growth: 40,
@@ -406,7 +431,9 @@ module.exports = {
       },
       {
         name: "Claude",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/e/eb/Claude_FE16.png/",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/e/eb/Claude_FE16.png/",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 26,
         hp_growth: 35,
@@ -429,7 +456,9 @@ module.exports = {
       },
       {
         name: "Lorenz",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/a/aa/Lorentz_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/a/aa/Lorentz_Portrait.png",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 28,
         hp_growth: 55,
@@ -452,7 +481,9 @@ module.exports = {
       },
       {
         name: "Hilda",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/5/57/Hilda_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/5/57/Hilda_Portrait.png",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 29,
         hp_growth: 50,
@@ -475,7 +506,9 @@ module.exports = {
       },
       {
         name: "Raphael",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/9/90/Raphael_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/9/90/Raphael_Portrait.png",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 30,
         hp_growth: 65,
@@ -498,7 +531,9 @@ module.exports = {
       },
       {
         name: "Lysithea",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/f/ff/Lysithea_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/f/ff/Lysithea_Portrait.png",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 22,
         hp_growth: 20,
@@ -521,7 +556,9 @@ module.exports = {
       },
       {
         name: "Ignatz",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/5/58/Ignace_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/5/58/Ignace_Portrait.png",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 25,
         hp_growth: 35,
@@ -544,7 +581,9 @@ module.exports = {
       },
       {
         name: "Marianne",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/6/65/Marianne_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/6/65/Marianne_Portrait.png",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 23,
         hp_growth: 35,
@@ -567,7 +606,9 @@ module.exports = {
       },
       {
         name: "Leonie",
-        image_link: "https://static.wikia.nocookie.net/fireemblem/images/b/bd/Leonie_Portrait.png",
+        image_link:
+          "https://static.wikia.nocookie.net/fireemblem/images/b/bd/Leonie_Portrait.png",
+        affinity: "Golden Deer",
         base_lv: 1,
         hp: 26,
         hp_growth: 40,
@@ -592,116 +633,46 @@ module.exports = {
     await queryInterface.bulkInsert("skills", [
       {
         name: "Sword",
-        "E+": "Sword Prowess Lv1",
-        D: "Wrath Strike",
-        "D+": "Sword Prowess Lv2",
-        "C+": "Sword Prowess Lv3",
-        C: "Grounder",
-        B: "Axebreaker",
-        "B+": "Sword Prowess Lv4",
-        "A+": "Sword Prowess Lv5",
-        S: "Sword Critical +10",
-        "S+": "Swordfaire",
+        skill_icon:
+          "https://static.wikia.nocookie.net/fireemblem/images/9/92/Icon_Combat_Art_FE16_Sword.png/",
       },
       {
         name: "Lance",
-        "E+": "Lance Prowess Lv1",
-        "D+": "Lance Prowess Lv2",
-        D: "Tempest Lance",
-        "C+": "Lance Prowess Lv3",
-        C: "Knightkneeler",
-        B: "Swordbreaker",
-        "B+": "Lance Prowess Lv4",
-        "A+": "Lance Prowess Lv5",
-        S: "Lance Critical +10",
-        "S+": "Lancefaire",
+        skill_icon:
+          "https://static.wikia.nocookie.net/fireemblem/images/0/0a/Icon_Combat_Art_FE16_Lance.png/",
       },
       {
         name: "Axe",
-        "E+": "Axe Prowess Lv1",
-        "D+": "Axe Prowess Lv2",
-        D: "Smash",
-        "C+": "Axe Prowess Lv3",
-        C: "Helm Splitter",
-        B: "Lancebreaker",
-        "B+": "Axe Prowess Lv4",
-        "A+": "Axe Prowess Lv5",
-        S: "Axe Critical +10",
-        "S+": "Axefaire",
+        skill_icon:
+          "https://static.wikia.nocookie.net/fireemblem/images/a/ad/Icon_Combat_Art_FE16_Axe.png/",
       },
       {
         name: "Bow",
-        "E+": "Bow Prowess Lv1",
-        "D+": "Bow Prowess Lv2",
-        D: "Curved Shot",
-        "C+": "Bow Prowess Lv3",
-        C: "Close Counter",
-        "B+": "Bow Prowess Lv4",
-        "A+": "Bow Prowess Lv5",
-        S: "Bow Critical +10",
-        "S+": "Bowfaire",
+        skill_icon:
+          "https://static.wikia.nocookie.net/fireemblem/images/1/14/Icon_Combat_Art_FE16_Bow.png/",
       },
       {
         name: "Brawling",
-        "E+": "Brawling Prowess Lv1",
-        "D+": "Brawling Prowess Lv2",
-        D: "Fading Blow",
-        "C+": "Brawling Prowess Lv3",
-        C: "Rushing Blow",
-        B: "Healing Focus",
-        "B+": "Brawling Prowess Lv4",
-        "A+": "Brawling Prowess Lv5",
-        S: "Brawl Critical +10",
-        "S+": "Fistfaire",
+        skill_icon:
+          "https://static.wikia.nocookie.net/fireemblem/images/a/a0/Icon_Combat_Art_FE16_Brawl.png/",
       },
       {
         name: "Reason",
-        "E+": "Reason Lv1",
-        "D+": "Reason Lv2",
-        "C+": "Reason Lv3",
-        "B+": "Reason Lv4",
-        "A+": "Reason Lv5",
-        S: "Black Magic Range +1",
-        "S+": "Black Tomefaire",
       },
       {
         name: "Faith",
-        "E+": "Faith Lv1",
-        "D+": "Faith Lv2",
-        "C+": "Faith Lv3",
-        "B+": "Faith Lv4",
-        "A+": "Faith Lv5",
-        S: "White Magic Range +1",
-        "S+": "White Tomefaire",
       },
       {
         name: "Authority",
-        "E+": "Authority Prowess Lv1",
-        "D+": "Authority Prowess Lv2",
-        "C+": "Authority Prowess Lv3",
-        B: "Defensive Tactics",
-        "B+": "Authority Prowess Lv4",
-        "A+": "Authority Prowess Lv5",
-        "S+": "Offensive Tactics",
       },
       {
         name: "Heavy Armor",
-        C: "Weight -3",
-        B: "Smite",
-        "A+": "Weight -5",
-        "S+": "Armored Effect Null",
       },
       {
         name: "Riding",
-        C: "Dexterity +4",
-        "A+": "Movement +1",
-        "S+": "Calvary Effect Null",
       },
       {
         name: "Flying",
-        B: "Alert Stance",
-        "A+": "Alert Stance+",
-        "S+": "Flying Effect Null",
       },
     ]);
     await queryInterface.bulkInsert("spells", [

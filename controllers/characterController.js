@@ -30,6 +30,7 @@ class characterController {
         name,
         image_link,
         base_lv,
+        affinity,
         hp,
         hp_growth,
         strength,
@@ -54,6 +55,7 @@ class characterController {
         name,
         image_link,
         base_lv,
+        affinity,
         hp,
         hp_growth,
         strength,
@@ -87,6 +89,7 @@ class characterController {
         name,
         image_link,
         base_lv,
+        affinity,
         hp,
         hp_growth,
         strength,
@@ -112,6 +115,9 @@ class characterController {
       };
       if (image_link) {
         existing.image_link = image_link;
+      };
+      if (affinity) {
+        existing.affinity = affinity;
       };
       if (base_lv) {
         existing.base_lv = base_lv;
