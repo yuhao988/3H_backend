@@ -13,6 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       critical: DataTypes.INTEGER,
       uses: DataTypes.INTEGER,
       weight: DataTypes.INTEGER,
+      description: DataTypes.STRING,
       range_min: DataTypes.INTEGER,
       range_max: DataTypes.INTEGER,
     },
